@@ -23,6 +23,6 @@ int main(void)
 		strcpy(str, "and is 0");
 	if (last_dig < 6 && last_dig != 0)
 		strcpy(str, "and is less than 6 and not 0");
-	printf("Last digit of %d is %d %s", n, last_dig, str);
+	printf("Last digit of %d is %d %s\n", n, last_dig, str);
 	return (0);
 }
