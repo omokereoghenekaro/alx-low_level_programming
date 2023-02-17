@@ -10,7 +10,8 @@ int main(void)
 	char c = 'a';
 	int num = 1;
 
-	while (num <= 26) {
+	while (num <= 26)
+	{
 		putchar(c);
 		c++;
 		num++;
