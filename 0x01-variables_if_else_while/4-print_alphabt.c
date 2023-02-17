@@ -8,8 +8,6 @@
 int main(void)
 {
 	char c[] = "abcdfghijklmnoprstuvwxyz";
-	char C = 'A';
-	int NUM = 1;
 	int num = 0;
 	
 	while (num < 24)
