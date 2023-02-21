@@ -4,8 +4,7 @@
  * always return 0
  *
  */
-int main()
+int _putchar(char c[100]="_putchar\n")
 {
-	printf("_putchar\n");
-	return (0);
+	return (c);
 }
