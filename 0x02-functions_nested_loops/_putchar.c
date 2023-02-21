@@ -7,8 +7,7 @@
  *     * Return: On success 1.
  *      * On error, -1 is returned, and errno is set appropriately.
  * */
-const char* _putchar(char c[])
+int _putchar(char c[])
 {
-	int len = sizeof(c);
-	return (write(STDOUT_FILENO, c, len));
+	return (write(STDOUT_FILENO, c, 9));
 }
