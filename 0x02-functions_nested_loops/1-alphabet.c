@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-/* 
- * print_alphabet - prints a - z
+/*
+ ** print_alphabet - prints a - z
  * main- bla bla bka
  * return - always 0
- * print_alphabet - prints a - z
  */
 void print_alphabet(void)
 {
