@@ -6,6 +6,6 @@
  */
 int main()
 {
-	_putchar("_putchar");
+	_putchar(c="_putchar");
 	return (0);
 }
