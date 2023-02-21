@@ -4,8 +4,8 @@
  * always return 0
  *
  */
-const char* _putchar(char c[100])
+int main()
 {
-	c = "_putchar\n";
-	return (c);
+	_putchar("_putchar");
+	return (0);
 }
